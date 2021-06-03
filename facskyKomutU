@@ -1,0 +1,32 @@
+on first join:
+    send "%player% İlk kez Geldi Aramıza hoşgeldin &4[sevrerınız kısaltması veya adı]" to player
+    give stone sword to player
+    give 10 golden apple to player
+    give stone pickaxe to player
+    give stone shovel to  player
+    give stone axe to player 
+    give leather helmet to  player
+    give leather chest plate to  player
+    give leather leggingsto player
+    give leather boots to player
+
+command /event
+    permission: ym.admin
+    permission message: &4&lBunu Yapabilmek İçin Yetkili Olman Lazım !
+    trigger:
+        give 20 golden apple to players 
+
+on join:
+    send "%player% Yeniden Hoşgeldin" to player
+
+on death:
+    send "%player% AHHHH ÖLDÜMMMMM" to players
+
+command /troll
+    permission: ym.youtuber
+    permission message:  &7&lBunu Yapabilmek İçin Yetkili Olman  Veya Youtuber Olman Lazım
+    trigger:
+        send "%player& al bakalım seni yaramaz çocuk" to player
+         give knocback 100 stick to player
+         give  power 10  bow to player
+         give  64 arrow to player

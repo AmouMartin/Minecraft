@@ -1,0 +1,15 @@
+on join skyblock:
+    send"Skyblockğa giriş  yaptınız iyi eğlenceler"  to player
+on first  join  skyblock:
+ send  "&7&lMerhabs bu skyblocka  ilk  gelişin nasıl  hisediyosun bilmiyormama ben skyblock  botu olarak mutluyum  haaa bu arada ben  [&5&l BOTUNUZUN ADI]." to player
+ send " habu arada eşyalarını veriyim" to player
+     give stone sword to player
+     give 10 golden apple to player
+     give stone pickaxe to player
+     give stone shovel to  player
+     give stone axe to player 
+     give leather helmet to  player
+     give leather chest plate to  player
+     give leather leggingsto player
+     give leather boots to player
+send  "Ada oluşturmak /İs yaz" to player

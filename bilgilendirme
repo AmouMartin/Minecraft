@@ -1,0 +1,6 @@
+command /bilgi:
+    trigger:
+        open virtual chest with size 2 named "BİLGİ" to player
+        make gui slot 0 of player with compass named "Güncellemeler" with lore "&ŞU anda güncelleme yok"
+        make gui slot 3 of player with book named "Kurallar" with lore "&1)Hile yasaktır "and" 2)Küfürveya argo yasaktır "and" 3)dolandırıcılık  yasaktır 
+        make gui slot 6 of player with  SkulOwner:Discord with lore "& Discordumuz: [DİSCORDUNUZ] 

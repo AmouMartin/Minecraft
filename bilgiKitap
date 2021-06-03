@@ -1,0 +1,10 @@
+command /bilgikitap:
+    trigger:
+        set {_kitap} to a new book
+        set {_satir} to a new text component with "&[Yazmak İstedeğiniz Şey]
+        add text component {_satir} to book {_kitap}
+        open book {_kitap} to player
+
+on authme login:
+    wait 10 tick
+    execute player command "bilgikitap"
